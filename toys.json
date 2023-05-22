@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "Seller": "Speedy Toys",
+      "Toy Name": "Sports Car",
+      "Sub-category": "Sports Car",
+      "Price": 29.99,
+      "Available Quantity": 50
+    },
+    {
+      "id": 2,
+      "Seller": "Adventurous Play",
+      "Toy Name": "Monster Truck",
+      "Sub-category": "Truck",
+      "Price": 19.99,
+      "Available Quantity": 30
+    },
+    {
+      "id": 3,
+      "Seller": "Fun Wheels",
+      "Toy Name": "Family Sedan",
+      "Sub-category": "Regular Car",
+      "Price": 24.99,
+      "Available Quantity": 40
+    },
+    {
+      "id": 4,
+      "Seller": "Tiny Heroes",
+      "Toy Name": "Mini Fire Truck",
+      "Sub-category": "Mini Fire Truck",
+      "Price": 14.99,
+      "Available Quantity": 20
+    },
+    {
+      "id": 5,
+      "Seller": "Junior Patrol",
+      "Toy Name": "Mini Police Car",
+      "Sub-category": "Mini Police Car",
+      "Price": 12.99,
+      "Available Quantity": 15
+    },
+    {
+      "id": 6,
+      "Seller": "Speedy Toys",
+      "Toy Name": "Race Car",
+      "Sub-category": "Sports Car",
+      "Price": 34.99,
+      "Available Quantity": 30
+    },
+    {
+      "id": 7,
+      "Seller": "Adventurous Play",
+      "Toy Name": "Off-Road Truck",
+      "Sub-category": "Truck",
+      "Price": 27.99,
+      "Available Quantity": 25
+    },
+    {
+      "id": 8,
+      "Seller": "Fun Wheels",
+      "Toy Name": "Convertible Car",
+      "Sub-category": "Regular Car",
+      "Price": 19.99,
+      "Available Quantity": 20
+    },
+    {
+      "id": 9,
+      "Seller": "Tiny Heroes",
+      "Toy Name": "Rescue Fire Truck",
+      "Sub-category": "Mini Fire Truck",
+      "Price": 16.99,
+      "Available Quantity": 15
+    },
+    {
+      "id": 10,
+      "Seller": "Junior Patrol",
+      "Toy Name": "Police Cruiser",
+      "Sub-category": "Mini Police Car",
+      "Price": 14.99,
+      "Available Quantity": 25
+    }
+  ]
+  
