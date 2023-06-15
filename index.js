@@ -7,10 +7,10 @@ const port = process.env.PORT || 5000;
 console.log(process.env.DB_PASS);
 console.log(process.env.DB_USER);
 
-//ExVcIHG6VKnHjZ6S
 
 app.use(cors());
 app.use(express.json())
+
 
 
 
@@ -30,15 +30,33 @@ async function run() {
     try {
         // Connect the client to the server	(optional starting in v4.7)
         await client.connect();
+
+        const toyCollection = client.db("toyCars").collection("toys")
+
+        /**
+         * =======================================
+         * Get Toy Cars Data From Mongo DB
+         * =======================================
+         */
+
+        app.get('/toys', async(req, res) => {
+            const result = await toyCollection.find().toArray();
+            res.send(result)
+        })
+
+
         // Send a ping to confirm a successful connection
         await client.db("admin").command({ ping: 1 });
         console.log("Pinged your deployment. You successfully connected to MongoDB!");
     } finally {
         // Ensures that the client will close when you finish/error
-        await client.close();
+        // await client.close();
     }
 }
 run().catch(console.dir);
+
+
+
 
 
 app.get('/', (req, res) => {
